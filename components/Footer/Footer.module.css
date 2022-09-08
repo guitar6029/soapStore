@@ -1,0 +1,51 @@
+.main_footer {
+  margin-top: 7em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  position: relative;
+  bottom: 0;
+}
+
+.main_footer > div {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.main_footer > div > a {
+  color: #000;
+  text-decoration: none;
+}
+
+.main_footer > div > input{
+    width: 250px;
+    height: 30px;
+}
+
+.main_footer > div > button{
+    font-family: inherit;
+    width: 250px;
+    height: 30px;
+    background-color: #fff ;
+    color: #000;
+    transition: 0.3s ease-in;
+}
+
+.main_footer > div > button:hover{
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+} 
+
+
+@media only screen and (max-width: 600px){
+  .main_footer{
+    flex-direction: column;
+  }
+}
