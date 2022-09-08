@@ -32,7 +32,7 @@ export default function Home() {
                 Organic and made just for you.
               </h5>
               <Link href="/shop">
-                <a className={style.link}>SHOP NOW</a>
+                <a className={`${style.link} ${style.link_hover_effect}`}>SHOP NOW</a>
               </Link>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
               <h3>Probiotic Soap Bars</h3>
               <p>Short description</p>
               <Link href="/shop/soap/bars">
-                <a className={style.link}>SHOP SOAP BARS</a>
+                <a className={`${style.link} ${style.link_hover_effect}`}>SHOP SOAP BARS</a>
               </Link>
             </div>
             <div className={style.favorite_item_img}>
@@ -73,7 +73,7 @@ export default function Home() {
               <h3>Probiotic Soap Bars</h3>
               <p>Short description</p>
               <Link href="/shop/soap/bar">
-                <a className={style.link}>SHOP SOAP BARS</a>
+                <a className={`${style.link} ${style.link_hover_effect}`}>SHOP SOAP BARS</a>
               </Link>
             </div>
           </div>
@@ -108,7 +108,8 @@ export default function Home() {
             </div>
           </div>
           <Link href="/about">
-            <a className={`${style.link} ${style.link_relative}`}>LEARN MORE</a>
+          
+            <a className={`${style.link} ${style.link_relative} ${style.link_hover_effect}`}>LEARN MORE</a>
           </Link>
         </section>
         <section className={style.grid_3_4}>
