@@ -31,7 +31,9 @@ export default function Home() {
               <h5 className={style.main_title_sub}>
                 Organic and made just for you.
               </h5>
-              <Link href="/shop">SHOP NOW</Link>
+              <Link href="/shop">
+                <a className={style.link}>SHOP NOW</a>
+              </Link>
             </div>
           </div>
         </section>
@@ -41,7 +43,9 @@ export default function Home() {
             <div className={style.favorite_item_description}>
               <h3>Probiotic Soap Bars</h3>
               <p>Short description</p>
-              <Link href="/shop/soap/bars">SHOP SOAP BARS</Link>
+              <Link href="/shop/soap/bars">
+                <a className={style.link}>SHOP SOAP BARS</a>
+              </Link>
             </div>
             <div className={style.favorite_item_img}>
               <div className={style.image_wrapper}>
@@ -68,7 +72,9 @@ export default function Home() {
             <div className={style.favorite_item_description}>
               <h3>Probiotic Soap Bars</h3>
               <p>Short description</p>
-              <Link href="/shop/soap/bars">SHOP SOAP BARS</Link>
+              <Link href="/shop/soap/bar">
+                <a className={style.link}>SHOP SOAP BARS</a>
+              </Link>
             </div>
           </div>
         </section>
@@ -101,13 +107,17 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <Link href="/about">LEARN MORE</Link>
+          <Link href="/about">
+            <a className={`${style.link} ${style.link_relative}`}>LEARN MORE</a>
+          </Link>
         </section>
         <section className={style.grid_3_4}>
           <div className={`${style.grid_title} ${style.section_main_title}`}>
             #BRAND
           </div>
-          <div className={`${style.area1} ${style.area_container}`}>
+          <div
+            className={`${style.area1} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1624459310487-47049146e35b.avif"
@@ -117,7 +127,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area2} ${style.area_container}`}>
+          <div
+            className={`${style.area2} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1584305574647-0cc949a2bb9f.avif"
@@ -127,7 +139,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area3} ${style.area_container}`}>
+          <div
+            className={`${style.area3} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1590439471364-192aa70c0b53.avif"
@@ -137,7 +151,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area4} ${style.area_container}`}>
+          <div
+            className={`${style.area4} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1600857544200-b2f666a9a2ec.avif"
@@ -147,7 +163,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area5} ${style.area_container}`}>
+          <div
+            className={`${style.area5} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1607006633821-b8b0f6988295.avif"
@@ -157,7 +175,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area6} ${style.area_container}`}>
+          <div
+            className={`${style.area6} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1612800083273-24ea5c80313d.avif"
@@ -167,7 +187,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area7} ${style.area_container}`}>
+          <div
+            className={`${style.area7} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1612800083994-d568da6256ba.avif"
@@ -177,7 +199,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <div className={`${style.area8} ${style.area_container}`}>
+          <div
+            className={`${style.area8} ${style.area_container} ${style.area_image}`}
+          >
             <div className={style.image_wrapper}>
               <Image
                 src="/images/photo-1618840313409-66c0d92d6f26.avif"
