@@ -4,10 +4,10 @@ function Nav() {
   return (
     <nav className={styles.main_nav}>
         <div className={styles.brand}>Brand</div>
-        <div><Link href='/shop'>Shop All</Link></div>
-        <div><Link href='/shop/body'>For Body</Link></div>
-        <div><Link href='/shop/home'>For Home</Link></div>
-        <div><Link href='/contact'>Contact</Link></div>
+        <div><Link href='#'>Shop All</Link></div>
+        <div><Link href='/#'>For Body</Link></div>
+        <div><Link href='#'>For Home</Link></div>
+        <div><Link href='#'>Contact</Link></div>
     </nav>
   )
 }
